@@ -101,7 +101,7 @@ void peep(int a[],int top,int i,int n){
 	}
 }
 
-void change(int a[], int top, int x, int i){
+void change(int a[], int top, int i, int x){
 	printf("TOP = %d\n", top);
 	if(top < 0){
 		printf("Stack is empty");
